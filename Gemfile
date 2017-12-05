@@ -10,8 +10,12 @@ end
 gem 'rails', '~> 5.1.4'
 #Bootstrap
 gem 'bootstrap-sass'
+#jquery
+gem 'jquery-rails'
 #for integration testing
 gem 'rails-controller-testing'
+#for password security
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
